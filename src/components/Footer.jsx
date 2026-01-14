@@ -45,7 +45,9 @@ const Footer = () => {
 
             <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between text-xs text-white/30">
                 <div className="flex gap-6 mb-4 md:mb-0">
-                    <p>&copy; 2026 Inspired Retreats. All rights reserved.</p>
+                    <p>&copy; 2026 Inspired Ventures Ltd. All rights reserved.</p>
+                    <p className="hidden md:block">|</p>
+                    <p>Registered in England & Wales No. 08834469</p>
                 </div>
                 <div className="flex gap-6 mt-4 md:mt-0">
                     <Link to="/privacy" className="hover:text-aman-stone transition-colors">Privacy</Link>
